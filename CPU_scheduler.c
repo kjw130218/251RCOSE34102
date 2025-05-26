@@ -77,7 +77,7 @@ void clear_evals() {
 
 void clear_ganttchart() {
 	int i;
-	for(i=0;i<200;i++){
+	for(i=0;i<300;i++){
 		free(ganttchart[i]);
 		ganttchart[i]=NULL;
 	}
@@ -471,7 +471,7 @@ void print_T() { //debug용용
 void Readygantt() {
 	ganttnum = 0;
     int i = 0;
-    for (i;i<200;i++){
+    for (i;i<300;i++){
         ganttchart[i] = (ganttPointer)malloc(sizeof(gantt));
         if (ganttchart[i] == NULL) {
             fprintf(stderr, "메모리 할당 실패\n");
