@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-#define MAX_TIME_UNIT 200
+#define MAX_TIME_UNIT 300
 #define MAX_PROCESS_NUM 10
 
 
